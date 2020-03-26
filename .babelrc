@@ -1,0 +1,22 @@
+{
+    "env": {
+        "development": {
+            "presets": ["react-app", "env"]
+        },
+        "production": {
+            "presets": [
+                "react-app",
+                [
+                    "env",
+                    {
+                        "targets": {
+                            "browsers": ["last 5 versions", "safari >= 7"],
+                            "node": "current"
+                        }
+                    }
+                ]
+            ],
+            "plugins": ["transform-class-properties"]
+        }
+    }
+}
