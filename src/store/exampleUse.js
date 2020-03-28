@@ -3,8 +3,8 @@ import {loading, loaded} from '../actions/loading';
 const store = configureStore();
 
 console.log('=========== Example store ===========');
-console.log(loading());
-console.log(loaded());
-console.log(loading());
-console.log(loaded());
+store.dispatch(loading());
+store.dispatch(loaded());
+store.dispatch(loading());
+store.dispatch(loaded());
 console.log('=========== end example store ===========');
