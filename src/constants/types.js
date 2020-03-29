@@ -10,3 +10,8 @@ export const comments = {
   SHOW: "react-app/comments/show",
   TOGGLE: "react-app/comments/toggle"
 };
+
+export const posts = {
+  CREATE: "react-app/post/create",
+  GET: "react-app/post/get"
+};
